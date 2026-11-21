@@ -1,0 +1,74 @@
+# Keystores, certificates, and signatures (CRITICAL)
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.pk8
+release.keystore
+cert_sha256.txt
+
+# Credentials, secrets, tokens, environment variables
+*.env
+*.env.*
+*.secret
+*.token
+*credentials*
+id_rsa*
+id_ed25519*
+
+# Android / APK artifacts and packages
+*.apk
+*.aab
+*.apks
+*.xapk
+*.idsig
+
+# Binaries, native libraries, archives
+*.so
+*.dll
+*.dylib
+*.exe
+*.bin
+*.jar
+*.zip
+*.tar.*
+*.7z
+
+# Work directory (decompiled APKs, extracted assets, splits)
+work/
+work/**
+
+# Analysis reports & runtime logs
+report.json
+*.log
+
+# PyInstaller & build output
+_build/
+build/
+dist/
+*.spec.bak
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# External tools & dumped binary data inside tools/
+tools/apktool.jar
+tools/il2cppdumper.zip
+tools/il2cppdumper/
+tools/frida/
+tools/__pycache__/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
