@@ -1,0 +1,2486 @@
+{
+  "scanned_smali_files": 56893,
+  "enforce": 3,
+  "sdk": 96,
+  "noise": 58,
+  "candidates": [
+    {
+      "file": "smali_classes7/com/google/ads/interactivemedia/v3/internal/zzip.smali",
+      "line": 38,
+      "header": ".method public final run()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": true,
+      "kind": "noise",
+      "score": 14
+    },
+    {
+      "file": "smali_classes6/fl2.smali",
+      "line": 44,
+      "header": ".method public constructor <init>(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "SHA-256",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "ENFORCE",
+      "score": 13
+    },
+    {
+      "file": "smali_classes3/com/inmobi/media/Kb.smali",
+      "line": 890,
+      "header": ".method public final a(Landroid/content/Context;Ljava/lang/String;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 12
+    },
+    {
+      "file": "smali_classes5/com/inmobi/media/j1.smali",
+      "line": 7,
+      "header": ".method public static a(Landroid/content/Context;Ljava/lang/String;Lcom/inmobi/media/Aa;Ljava/lang/String;Lcom/inmobi/media/f5;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 12
+    },
+    {
+      "file": "smali_classes7/com/ogury/ad/internal/ua.smali",
+      "line": 7,
+      "header": ".method public static final a(Landroid/content/Context;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 12
+    },
+    {
+      "file": "smali_classes4/androidx/core/provider/FontProvider.smali",
+      "line": 45,
+      "header": ".method public static a(Landroid/content/Context;Landroidx/core/provider/FontRequest;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Landroidx/core/provider/FontsContractCompat$FontFamilyResult;",
+      "cond": true,
+      "hex": false,
+      "kind": "ENFORCE",
+      "score": 11
+    },
+    {
+      "file": "smali_classes6/com/pgl/ssdk/v.smali",
+      "line": 2125,
+      "header": ".method public static f()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "ENFORCE",
+      "score": 11
+    },
+    {
+      "file": "smali_classes7/com/google/ads/interactivemedia/v3/internal/zzmv.smali",
+      "line": 182,
+      "header": ".method public final a(Ljava/io/File;)Z",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 11
+    },
+    {
+      "file": "smali/com/ogury/ad/internal/l5.smali",
+      "line": 925,
+      "header": ".method public final declared-synchronized a(Ljava/util/ArrayList;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/androidx/profileinstaller/ProfileVerifier.smali",
+      "line": 65,
+      "header": ".method public static a(Landroid/content/Context;)J",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "J",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/templates/renderer/b.smali",
+      "line": 500,
+      "header": ".method public final b()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/ogury/ad/internal/ab.smali",
+      "line": 117,
+      "header": ".method public final a(Z)Lcom/ogury/ad/internal/tb;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/ogury/ad/internal/tb;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/ogury/ad/internal/dd.smali",
+      "line": 43,
+      "header": ".method public static a(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/ogury/ad/internal/ef.smali",
+      "line": 26,
+      "header": ".method public static a(Landroid/app/Activity;Lcom/ogury/ad/internal/d9;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/ogury/ad/internal/f8.smali",
+      "line": 65,
+      "header": ".method public final a(Lcom/ogury/ad/internal/tb;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/net/pubnative/lite/sdk/HyBid.smali",
+      "line": 1564,
+      "header": ".method public static initialize(Ljava/lang/String;Landroid/app/Application;Lnet/pubnative/lite/sdk/HyBid$InitialisationListener;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/s62.smali",
+      "line": 38,
+      "header": ".method public final run()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes3/androidx/profileinstaller/ProfileInstallReceiver.smali",
+      "line": 29,
+      "header": ".method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes3/r2.smali",
+      "line": 152,
+      "header": ".method public b(Lke0;)Ljava/lang/Object;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes3/tn.smali",
+      "line": 397,
+      "header": ".method public final a(Lue;)Lue;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lue;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes4/androidx/profileinstaller/ProfileInstaller.smali",
+      "line": 152,
+      "header": ".method public static b(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Z)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes4/com/apm/insight/nativecrash/b.smali",
+      "line": 342,
+      "header": ".method public final b()Ljava/util/Map;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/util/Map;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes4/com/ogury/sdk/Ogury.smali",
+      "line": 854,
+      "header": ".method public static final declared-synchronized start(Landroid/content/Context;Ljava/lang/String;Lcom/ogury/sdk/OguryOnStartListener;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes5/androidx/emoji2/text/DefaultEmojiCompatConfig.smali",
+      "line": 18,
+      "header": ".method public static a(Landroid/content/Context;)Landroidx/emoji2/text/FontRequestEmojiCompatConfig;",
+      "hits": [
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Landroidx/emoji2/text/FontRequestEmojiCompatConfig;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes5/com/inmobi/media/c1.smali",
+      "line": 21,
+      "header": ".method static constructor <clinit>()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes5/com/moloco/sdk/internal/services/K.smali",
+      "line": 38,
+      "header": ".method public final a()Ljava/lang/Object;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes5/com/moloco/sdk/internal/services/m.smali",
+      "line": 7,
+      "header": ".method public static final a(Landroid/content/Context;)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes5/p90.smali",
+      "line": 482,
+      "header": ".method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes6/com/apm/insight/d.smali",
+      "line": 164,
+      "header": ".method private d()Lorg/json/JSONObject;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lorg/json/JSONObject;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes6/com/ogury/ad/internal/i.smali",
+      "line": 77,
+      "header": ".method public final invoke()Ljava/lang/Object;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes7/com/apm/insight/entity/Header.smali",
+      "line": 293,
+      "header": ".method public static addOtherHeader(Lorg/json/JSONObject;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes7/com/ogury/ad/internal/x4.smali",
+      "line": 55,
+      "header": ".method public static a(Lcom/ogury/ad/internal/w4;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes7/kw1.smali",
+      "line": 144,
+      "header": ".method public static a(Lre0;)Lp7;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lp7;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes8/com/amazon/device/ads/DtbPackageNativeData.smali",
+      "line": 23,
+      "header": ".method private constructor <init>(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 9
+    },
+    {
+      "file": "smali_classes2/com/apm/insight/l/m.smali",
+      "line": 262,
+      "header": ".method public static a(Ljava/lang/Throwable;Ljava/io/PrintStream;Lcom/apm/insight/l/e$a;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes2/ds1.smali",
+      "line": 47,
+      "header": ".method public final a(Lcom/google/android/exoplayer2/source/rtsp/RtspMessageUtil$RtspAuthUserInfo;Landroid/net/Uri;I)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes4/com/bykv/vk/openvk/IlO/IlO/IlO/Bc/IlO.smali",
+      "line": 20,
+      "header": ".method public static IlO(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes5/com/bykv/vk/openvk/preload/geckox/utils/d.smali",
+      "line": 134,
+      "header": ".method public static a(Ljava/io/InputStream;Ljava/lang/String;)V",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes5/com/google/ads/interactivemedia/v3/internal/zzi.smali",
+      "line": 2236,
+      "header": ".method public static i(Ljava/nio/ByteBuffer;Ljava/util/HashMap;Ljava/security/cert/CertificateFactory;)[Ljava/security/cert/X509Certificate;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "[Ljava/security/cert/X509Certificate;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes6/bs0.smali",
+      "line": 221,
+      "header": ".method public final a()Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA1"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes6/com/pgl/ssdk/v.smali",
+      "line": 150,
+      "header": ".method public static a(Ljava/io/RandomAccessFile;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes6/com/pgl/ssdk/v.smali",
+      "line": 235,
+      "header": ".method public static a([B)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA1"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes6/net/pubnative/lite/sdk/utils/PNCrypto.smali",
+      "line": 415,
+      "header": ".method public static md5(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "noise",
+      "score": 8
+    },
+    {
+      "file": "smali_classes6/com/pgl/ssdk/b0.smali",
+      "line": 782,
+      "header": ".method public static h(Landroid/content/Context;)I",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "I",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 6
+    },
+    {
+      "file": "smali_classes6/de/szalkowski/activitylauncher/data/external/ReviewRequesterImpl.smali",
+      "line": 64,
+      "header": ".method private final shouldShowInAppReview(Landroid/content/Context;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 6
+    },
+    {
+      "file": "smali_classes5/androidx/core/content/pm/PackageInfoCompat$Api28Impl.smali",
+      "line": 18,
+      "header": ".method public static a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;",
+      "hits": [
+        "getApkContentsSigners",
+        "Landroid/content/pm/Signature;"
+      ],
+      "ret": "[Landroid/content/pm/Signature;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 4
+    },
+    {
+      "file": "smali_classes5/androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper.smali",
+      "line": 38,
+      "header": ".method public b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;"
+      ],
+      "ret": "[Landroid/content/pm/Signature;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 4
+    },
+    {
+      "file": "smali_classes5/androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API28.smali",
+      "line": 18,
+      "header": ".method public final b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;"
+      ],
+      "ret": "[Landroid/content/pm/Signature;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 4
+    },
+    {
+      "file": "smali_classes7/r32.smali",
+      "line": 7,
+      "header": ".method public static bridge synthetic A(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;",
+      "hits": [
+        "getApkContentsSigners",
+        "Landroid/content/pm/Signature;"
+      ],
+      "ret": "[Landroid/content/pm/Signature;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 4
+    },
+    {
+      "file": "smali/androidx/media3/common/util/Util.smali",
+      "line": 8160,
+      "header": ".method public static getUserAgent(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 3
+    },
+    {
+      "file": "smali_classes3/com/pubmatic/sdk/common/models/POBAppInfo.smali",
+      "line": 15,
+      "header": ".method public constructor <init>(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 3
+    },
+    {
+      "file": "smali_classes5/com/bykv/vk/openvk/preload/geckox/utils/a.smali",
+      "line": 110,
+      "header": ".method public static a(Landroid/content/Context;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 3
+    },
+    {
+      "file": "smali_classes5/com/google/android/exoplayer2/util/Util.smali",
+      "line": 7086,
+      "header": ".method public static getUserAgent(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 3
+    },
+    {
+      "file": "smali_classes6/com/pgl/ssdk/b0.smali",
+      "line": 827,
+      "header": ".method public static i(Landroid/content/Context;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 3
+    },
+    {
+      "file": "smali_classes2/com/google/android/gms/internal/pal/zzds.smali",
+      "line": 38,
+      "header": ".method public final run()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": true,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes3/com/google/android/gms/common/GooglePlayServicesUtilLight.smali",
+      "line": 784,
+      "header": ".method public static isGooglePlayServicesAvailable(Landroid/content/Context;I)I",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "I",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes3/com/smaato/sdk/core/mvvm/model/video/Md5Digester.smali",
+      "line": 61,
+      "header": ".method private declared-synchronized getMd5Digest()Ljava/security/MessageDigest;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/security/MessageDigest;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes3/com/unity3d/ads/core/data/datasource/AndroidStaticDeviceInfoDataSource.smali",
+      "line": 1116,
+      "header": ".method private final getCertificateFingerprint()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "GET_SIGNING_CERTIFICATES",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes3/com/unity3d/ads/core/data/datasource/AndroidStaticDeviceInfoDataSource.smali",
+      "line": 2571,
+      "header": ".method private final isAppDebuggable()Z",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzazr.smali",
+      "line": 43,
+      "header": ".method public final run()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": true,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes6/st1.smali",
+      "line": 1012,
+      "header": ".method public h()Ljava/lang/Object;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes7/com/google/ads/interactivemedia/v3/internal/zzgg.smali",
+      "line": 22,
+      "header": ".method public final run()V",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/internal/ads/zzgpg.smali",
+      "line": 35,
+      "header": ".method public static zza(Landroid/content/Context;)Z",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes7/com/moloco/sdk/internal/z.smali",
+      "line": 7,
+      "header": ".method public static final a(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes7/com/ogury/ad/internal/v4.smali",
+      "line": 7,
+      "header": ".method public static a(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes8/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/H.smali",
+      "line": 7,
+      "header": ".method public static final a(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes8/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/H.smali",
+      "line": 74,
+      "header": ".method public static final b(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "noise",
+      "score": 2
+    },
+    {
+      "file": "smali_classes8/com/unity3d/services/core/properties/ClientProperties.smali",
+      "line": 263,
+      "header": ".method public static isAppDebuggable()Z",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 2
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/measurement/internal/zzgi.smali",
+      "line": 1211,
+      "header": ".method public final zzh(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzr;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "MD5",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/measurement/internal/zzr;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 1
+    },
+    {
+      "file": "smali_classes8/com/fyber/inneractive/sdk/util/o.1.smali",
+      "line": 88,
+      "header": ".method public static a(Landroid/content/Context;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "SHA-256",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 1
+    },
+    {
+      "file": "smali_classes8/com/google/android/gms/measurement/internal/zzpp.smali",
+      "line": 6777,
+      "header": ".method public final zzag(Landroid/content/Context;Ljava/lang/String;)Z",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 1
+    },
+    {
+      "file": "smali/com/google/android/gms/common/util/UidVerifier.smali",
+      "line": 19,
+      "header": ".method public static isGooglePlayServicesUid(Landroid/content/Context;I)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 0
+    },
+    {
+      "file": "smali_classes6/com/ironsource/ab.smali",
+      "line": 3657,
+      "header": ".method public v(Landroid/content/Context;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 0
+    },
+    {
+      "file": "smali_classes6/com/ironsource/c4.smali",
+      "line": 576,
+      "header": ".method public static d(Landroid/content/Context;Ljava/lang/String;)Z",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 0
+    },
+    {
+      "file": "smali_classes7/com/unity3d/services/core/device/Device.smali",
+      "line": 605,
+      "header": ".method public static getCertificateFingerprint()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 0
+    },
+    {
+      "file": "smali_classes8/com/google/android/gms/common/util/AndroidUtilsLight.smali",
+      "line": 49,
+      "header": ".method public static getPackageCertificateHashBytes(Landroid/content/Context;Ljava/lang/String;)[B",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "SHA1"
+      ],
+      "ret": "[B",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": 0
+    },
+    {
+      "file": "smali_classes4/com/google/android/gms/common/GoogleSignatureVerifier.smali",
+      "line": 647,
+      "header": ".method private final zzb(Ljava/lang/String;ZZ)Lcom/google/android/gms/common/zzy;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/common/zzy;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -1
+    },
+    {
+      "file": "smali_classes4/com/google/android/gms/internal/ads/zzfua.smali",
+      "line": 182,
+      "header": ".method public final zza(Ljava/io/File;)Z",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Z",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -1
+    },
+    {
+      "file": "smali_classes2/com/applovin/impl/sdk/m.smali",
+      "line": 5351,
+      "header": ".method private a([Landroid/content/pm/Signature;)Ljava/util/List;",
+      "hits": [
+        "Landroid/content/pm/Signature;",
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/util/List;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -2
+    },
+    {
+      "file": "smali_classes2/com/bytedance/sdk/component/utils/EO.smali",
+      "line": 210,
+      "header": ".method public static IlO(Landroid/content/Context;Ljava/lang/String;)Ljava/util/ArrayList;",
+      "hits": [
+        "Landroid/content/pm/Signature;",
+        "SHA1",
+        "MD5"
+      ],
+      "ret": "Ljava/util/ArrayList;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -2
+    },
+    {
+      "file": "smali/com/chartboost/sdk/impl/b7.smali",
+      "line": 113,
+      "header": ".method public final a(Landroid/content/Context;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali/com/unity3d/ads/core/data/datasource/AndroidStoreDataSource.smali",
+      "line": 64,
+      "header": ".method public fetchStores(Ljava/util/List;)Ljava/util/List;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/util/List;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali/com/vungle/ads/internal/network/VungleApiClient.smali",
+      "line": 4280,
+      "header": ".method public final declared-synchronized initialize(Ljava/lang/String;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes2/com/applovin/impl/sdk/m.smali",
+      "line": 1487,
+      "header": ".method private D()Ljava/util/Map;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/util/Map;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes2/com/bytedance/sdk/component/utils/EO.smali",
+      "line": 112,
+      "header": ".method private static IlO(Landroid/content/pm/Signature;Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "Landroid/content/pm/Signature;",
+        "MessageDigest"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes2/com/google/android/gms/internal/ads/zzfai.smali",
+      "line": 123,
+      "header": ".method public final synthetic zzc()Lcom/google/android/gms/internal/ads/zzfag;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/internal/ads/zzfag;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/applovin/impl/q7.smali",
+      "line": 74,
+      "header": ".method public static a(Landroid/content/Context;)Ljava/lang/Boolean;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Boolean;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/applovin/impl/r8.smali",
+      "line": 505,
+      "header": ".method private static c(Lcom/applovin/impl/sdk/l;)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/bytedance/sdk/openadsdk/utils/DeviceUtils.smali",
+      "line": 3349,
+      "header": ".method private static zPa(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/bytedance/sdk/openadsdk/utils/zLG.smali",
+      "line": 462,
+      "header": ".method public static declared-synchronized Bc()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/bytedance/sdk/openadsdk/utils/zLG.smali",
+      "line": 5089,
+      "header": ".method public static declared-synchronized vCE()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/google/android/gms/ads/identifier/AdvertisingIdClient.smali",
+      "line": 1074,
+      "header": ".method public final zza(Z)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/safedk/android/SafeDK.smali",
+      "line": 403,
+      "header": ".method private a(Landroid/content/pm/ApplicationInfo;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes3/com/unity3d/ads/core/data/datasource/AndroidStaticDeviceInfoDataSource.smali",
+      "line": 899,
+      "header": ".method private final getAppVersion()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzgco.smali",
+      "line": 1151,
+      "header": ".method public final synthetic zzf()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/atv_ads_framework/zzad.smali",
+      "line": 1485,
+      "header": ".method private static zze(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes5/com/google/firebase/remoteconfig/internal/ConfigFetchHttpClient.smali",
+      "line": 273,
+      "header": ".method public final a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Long;Ljava/util/Map;)Lorg/json/JSONObject;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lorg/json/JSONObject;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes5/com/unity3d/services/core/api/DeviceInfo.smali",
+      "line": 1810,
+      "header": ".method public static getPackageInfo(Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes5/com/unity3d/services/core/api/Permissions.smali",
+      "line": 148,
+      "header": ".method public static getPermissions(Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes6/com/bytedance/sdk/openadsdk/utils/lEW.smali",
+      "line": 1371,
+      "header": ".method private static EV(Landroid/content/Context;)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes6/com/fyber/inneractive/sdk/ignite/h.smali",
+      "line": 1095,
+      "header": ".method public final onIgniteServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes6/com/google/android/gms/internal/ads/zzbzd.smali",
+      "line": 67,
+      "header": ".method public constructor <init>(Landroid/content/Context;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes6/com/google/android/gms/internal/ads/zzggg.smali",
+      "line": 55,
+      "header": ".method public final zza(ZJ)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes6/com/ironsource/c4.smali",
+      "line": 106,
+      "header": ".method public static a(Landroid/content/Context;Lorg/json/JSONArray;)Lorg/json/JSONObject;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lorg/json/JSONObject;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes7/com/bytedance/sdk/openadsdk/utils/es.smali",
+      "line": 7,
+      "header": ".method public static IlO()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes7/com/fyber/inneractive/sdk/click/g.smali",
+      "line": 57,
+      "header": ".method public final a(Landroid/content/Context;Landroid/net/Uri;Ljava/util/List;)Lcom/fyber/inneractive/sdk/click/b;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/fyber/inneractive/sdk/click/b;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/internal/consent_sdk/zzp.smali",
+      "line": 45,
+      "header": ".method public static bridge synthetic zza(Lcom/google/android/gms/internal/consent_sdk/zzp;)Lcom/google/android/gms/internal/consent_sdk/zzcj;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/internal/consent_sdk/zzcj;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/measurement/internal/zzgi.smali",
+      "line": 92,
+      "header": ".method public final zzf()V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes8/com/google/android/gms/measurement/internal/zzpg.smali",
+      "line": 35277,
+      "header": ".method public final zzai(Lcom/google/android/gms/measurement/internal/zzr;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali_classes8/com/unity3d/services/core/properties/ClientProperties.smali",
+      "line": 119,
+      "header": ".method public static getAppVersion()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -3
+    },
+    {
+      "file": "smali/com/bytedance/sdk/component/utils/zPa.smali",
+      "line": 56,
+      "header": ".method public static IlO(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali/com/safedk/android/analytics/brandsafety/BrandSafetyUtils.smali",
+      "line": 12801,
+      "header": ".method public static s(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali/com/safedk/android/analytics/brandsafety/creatives/discoveries/o.smali",
+      "line": 2856,
+      "header": ".method public static a(Landroid/graphics/drawable/Drawable;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes2/com/bytedance/sdk/component/utils/Cc.smali",
+      "line": 56,
+      "header": ".method public static IlO(Ljava/io/File;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes2/com/bytedance/sdk/component/utils/Cc.smali",
+      "line": 139,
+      "header": ".method public static IlO(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes3/com/google/android/gms/internal/ads/zzaqq.smali",
+      "line": 2282,
+      "header": ".method private static zzc(Ljava/nio/ByteBuffer;Ljava/util/Map;Ljava/security/cert/CertificateFactory;)[Ljava/security/cert/X509Certificate;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "[Ljava/security/cert/X509Certificate;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes4/com/google/android/gms/ads/internal/util/client/zzf.smali",
+      "line": 1590,
+      "header": ".method public static zzi()Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes4/com/google/android/gms/common/zzo.smali",
+      "line": 782,
+      "header": ".method public static synthetic zze(ZLjava/lang/String;Lcom/google/android/gms/common/zzj;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/consent_sdk/zzcm.smali",
+      "line": 134,
+      "header": ".method private static zzb(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes5/com/ironsource/mediationsdk/utils/IronSourceUtils.smali",
+      "line": 3442,
+      "header": ".method public static getMD5(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes5/com/ironsource/mediationsdk/utils/IronSourceUtils.smali",
+      "line": 3798,
+      "header": ".method public static getSHA256(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes6/com/google/android/gms/internal/ads/zzbdm.smali",
+      "line": 45,
+      "header": ".method public final zzb()Ljava/security/MessageDigest;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/security/MessageDigest;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes6/com/safedk/android/analytics/a.smali",
+      "line": 161,
+      "header": ".method private static a([Ljava/lang/StackTraceElement;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes6/com/safedk/android/utils/k.smali",
+      "line": 3200,
+      "header": ".method public static p(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes6/com/safedk/android/utils/k.smali",
+      "line": 3302,
+      "header": ".method public static q(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes7/com/ironsource/sdk/utils/SDKUtils.smali",
+      "line": 1097,
+      "header": ".method public static getMD5(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes8/com/google/android/gms/measurement/internal/zzpk.smali",
+      "line": 10974,
+      "header": ".method public final zzt([B)J",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "J",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes8/com/google/android/gms/measurement/internal/zzpp.smali",
+      "line": 112,
+      "header": ".method public static zzQ()Ljava/security/MessageDigest;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/security/MessageDigest;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes8/com/unity3d/services/core/misc/Utilities.smali",
+      "line": 19,
+      "header": ".method public static Sha256(Ljava/io/InputStream;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes8/com/unity3d/services/core/misc/Utilities.smali",
+      "line": 140,
+      "header": ".method public static Sha256([B)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": true,
+      "hex": false,
+      "kind": "sdk",
+      "score": -4
+    },
+    {
+      "file": "smali_classes3/com/google/android/gms/common/GooglePlayServicesUtilLight.smali",
+      "line": 340,
+      "header": ".method public static getApkVersion(Landroid/content/Context;)I",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "I",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -6
+    },
+    {
+      "file": "smali_classes3/com/google/firebase/perf/config/RemoteConfigManager.smali",
+      "line": 394,
+      "header": ".method public static getVersionCode(Landroid/content/Context;)I",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "I",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -6
+    },
+    {
+      "file": "smali_classes2/com/bytedance/sdk/component/utils/EO.smali",
+      "line": 441,
+      "header": ".method private static MY(Landroid/content/Context;Ljava/lang/String;)[Landroid/content/pm/Signature;",
+      "hits": [
+        "getPackageInfo",
+        "Landroid/content/pm/Signature;",
+        "getPackageManager"
+      ],
+      "ret": "[Landroid/content/pm/Signature;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -7
+    },
+    {
+      "file": "smali/com/safedk/android/internal/DeviceData.smali",
+      "line": 105,
+      "header": ".method public constructor <init>(Landroid/content/Context;Lcom/safedk/android/utils/j;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes2/com/applovin/impl/t7.smali",
+      "line": 548,
+      "header": ".method public static a(Landroid/content/Context;I)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes4/com/facebook/ads/internal/dynamicloading/DexLoadErrorReporter.smali",
+      "line": 65,
+      "header": ".method private static addEnvFields(Landroid/content/Context;Lorg/json/JSONObject;Ljava/lang/String;)V",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes4/com/google/android/gms/internal/ads/zzfuv.smali",
+      "line": 179,
+      "header": ".method public final synthetic zzc()Lcom/google/android/gms/internal/ads/zzawp;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/internal/ads/zzawp;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzaye.smali",
+      "line": 7,
+      "header": ".method public static final zza(Landroid/content/Context;Ljava/lang/String;JZ)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzays.smali",
+      "line": 32,
+      "header": ".method public final synthetic call()Ljava/lang/Object;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/Object;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes6/com/google/android/gms/internal/ads/zzgjq.smali",
+      "line": 124,
+      "header": ".method public final zza()Lcom/google/common/util/concurrent/ListenableFuture;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/common/util/concurrent/ListenableFuture;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes6/com/google/android/gms/internal/ads/zzgmi.smali",
+      "line": 271,
+      "header": ".method public final synthetic zzf()Lcom/google/android/gms/internal/ads/zzawp;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Lcom/google/android/gms/internal/ads/zzawp;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes6/com/ironsource/c4.smali",
+      "line": 30,
+      "header": ".method public static a(Landroid/content/Context;)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes6/com/ironsource/c4.smali",
+      "line": 450,
+      "header": ".method public static b(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/common/wrappers/PackageManagerWrapper.smali",
+      "line": 250,
+      "header": ".method public getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Landroid/content/pm/PackageInfo;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali_classes8/com/fyber/inneractive/sdk/util/k.smali",
+      "line": 165,
+      "header": ".method public static m()Ljava/lang/String;",
+      "hits": [
+        "getPackageInfo",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -9
+    },
+    {
+      "file": "smali/com/safedk/android/analytics/brandsafety/BrandSafetyUtils.smali",
+      "line": 2378,
+      "header": ".method static a(Landroid/graphics/Bitmap;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali/com/safedk/android/analytics/brandsafety/BrandSafetyUtils.smali",
+      "line": 2860,
+      "header": ".method public static a([B)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali/com/safedk/android/analytics/brandsafety/creatives/discoveries/c.smali",
+      "line": 285,
+      "header": ".method static constructor <clinit>()V",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes2/com/applovin/impl/z4.smali",
+      "line": 1431,
+      "header": ".method private static a([BLcom/applovin/impl/sdk/l;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA1"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes2/com/applovin/impl/z4.smali",
+      "line": 2685,
+      "header": ".method private static a(Ljava/lang/String;[BLcom/applovin/impl/sdk/l;)[B",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "[B",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes2/com/chartboost/sdk/impl/m6.smali",
+      "line": 393,
+      "header": ".method public final a(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes3/com/google/android/gms/internal/pal/zzbm.smali",
+      "line": 33,
+      "header": ".method public final run()V",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzaxo.smali",
+      "line": 33,
+      "header": ".method public final run()V",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes5/com/google/android/gms/internal/ads/zzgec.smali",
+      "line": 91,
+      "header": ".method public final declared-synchronized zzb(Ljava/security/SecureRandom;)V",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "V",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes6/com/ironsource/ab.smali",
+      "line": 2974,
+      "header": ".method public o(Landroid/content/Context;)Ljava/util/List;",
+      "hits": [
+        "getInstalledApplications",
+        "getPackageManager"
+      ],
+      "ret": "Ljava/util/List;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes7/com/google/android/gms/internal/ads/zzgpf.smali",
+      "line": 7,
+      "header": ".method public static zza([B)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "SHA-256"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    },
+    {
+      "file": "smali_classes7/com/ironsource/sdk/controller/s.smali",
+      "line": 140,
+      "header": ".method private b(Ljava/lang/String;)Ljava/lang/String;",
+      "hits": [
+        "MessageDigest",
+        "MD5"
+      ],
+      "ret": "Ljava/lang/String;",
+      "cond": false,
+      "hex": false,
+      "kind": "sdk",
+      "score": -10
+    }
+  ],
+  "hex_literals": [
+    {
+      "value": "470fa2b4ae81cd56ecbcda9735803434cec591fa",
+      "files": [
+        "smali_classes2\\es.smali"
+      ]
+    },
+    {
+      "value": "bc4f405872168091578ff3b1b238ac9d",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "217e8f437c9fc4244d6e74653ac8a8c7",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "9d2482ebc91b768376ff604812009a27",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "daaea35726ab7cd457ab61d4538fb822",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "b9b88d70c3d018bfbda46cd93ba3ddca",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "05d97eb6bebee2dc1cf8f4db8d56c22c",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "b22aaa348bcb8a472af27d73ae6fb3f4",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "213ac5b6803852323d73a1292440d7be",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "d41ed920405e4bd14f3a42cd93c43d89",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "7eac188d3286b05ccbba774f63a2c049",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "29015bbfcc182d80e7f75bd2c38e4521",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "c4d1f1775f251f03dce94fdf267a7b89",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "dd2971b0681141d57b221687791ad1bd",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "74616804a7dc29147dfb0afe122a9fd2",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "d17c8c244936f66bcfdcf4e676e6203c",
+      "files": [
+        "smali_classes9\\com\\safedk\\android\\utils\\SdksMappingInitializer.smali"
+      ]
+    },
+    {
+      "value": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+      "files": [
+        "smali_classes5\\com\\google\\android\\gms\\internal\\pal\\zzxx.smali",
+        "smali_classes7\\com\\google\\android\\gms\\internal\\ads\\zzhhq.smali"
+      ]
+    },
+    {
+      "value": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+      "files": [
+        "smali_classes5\\com\\google\\android\\gms\\internal\\pal\\zzxx.smali",
+        "smali_classes7\\com\\google\\android\\gms\\internal\\ads\\zzhhq.smali"
+      ]
+    },
+    {
+      "value": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+      "files": [
+        "smali_classes5\\com\\google\\android\\gms\\internal\\pal\\zzxx.smali",
+        "smali_classes7\\com\\google\\android\\gms\\internal\\ads\\zzhhq.smali"
+      ]
+    },
+    {
+      "value": "0000000000000000000000000000000000000000000000000000000000000000",
+      "files": [
+        "smali_classes2\\com\\google\\android\\gms\\internal\\pal\\zzds.smali",
+        "smali_classes2\\com\\google\\android\\gms\\internal\\pal\\zzei.smali",
+        "smali_classes5\\com\\google\\android\\gms\\internal\\ads\\zzazr.smali",
+        "smali_classes5\\com\\google\\android\\gms\\internal\\ads\\zzbah.smali",
+        "smali_classes7\\com\\google\\ads\\interactivemedia\\v3\\internal\\zzip.smali",
+        "smali_classes7\\com\\google\\ads\\interactivemedia\\v3\\internal\\zzjf.smali"
+      ]
+    },
+    {
+      "value": "342ad60cd6b5b51139c0afa7e453cf8300333fdc",
+      "files": [
+        "smali_classes2\\com\\chartboost\\sdk\\impl\\h3.smali",
+        "smali_classes7\\com\\chartboost\\sdk\\impl\\p3.smali"
+      ]
+    },
+    {
+      "value": "f36c832c8dbb162c49b46a7a6dd47fbd",
+      "files": [
+        "smali\\com\\bykv\\vk\\openvk\\preload\\geckox\\c.smali",
+        "smali_classes7\\com\\bykv\\vk\\openvk\\preload\\geckox\\statistic\\b$1.smali"
+      ]
+    },
+    {
+      "value": "a5c71f6aff54eb34c826d952c285eaf0650b4259c83ae598962681a6429b63f6",
+      "files": [
+        "smali_classes7\\com\\amazon\\aps\\shared\\ApsMetrics.smali",
+        "smali_classes7\\com\\amazon\\device\\ads\\DtbDeviceRegistration.smali"
+      ]
+    },
+    {
+      "value": "B3EEABB8EE11C2BE770B684D95219ECB",
+      "files": [
+        "smali_classes4\\com\\google\\android\\gms\\ads\\internal\\client\\zzej.smali",
+        "smali_classes6\\com\\google\\android\\gms\\ads\\AbstractAdRequestBuilder.smali"
+      ]
+    },
+    {
+      "value": "36864200e0eaf5284d884a0e77d31646",
+      "files": [
+        "smali_classes6\\com\\google\\android\\gms\\internal\\ads\\zzhfo.smali"
+      ]
+    },
+    {
+      "value": "808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9f",
+      "files": [
+        "smali_classes6\\com\\google\\android\\gms\\internal\\ads\\zzhfu.smali"
+      ]
+    },
+    {
+      "value": "a0784d7a4716f3feb4f64e7f4b39bf04",
+      "files": [
+        "smali_classes6\\com\\google\\android\\gms\\internal\\ads\\zzhfu.smali"
+      ]
+    },
+    {
+      "value": "e9026ffd475a1a3691e6b2ce637a9b92aab1073ebf53a67c5f2583be8a804ecb",
+      "files": [
+        "smali_classes6\\com\\amazon\\aps\\shared\\APSAnalytics.smali"
+      ]
+    },
+    {
+      "value": "dde3c298b47648459f8ada4a982fa92d",
+      "files": [
+        "smali_classes5\\net\\pubnative\\lite\\sdk\\testing\\TestUtil.smali"
+      ]
+    },
+    {
+      "value": "e74483c4b5e6dc78e088d9fb0243ae66",
+      "files": [
+        "smali_classes5\\net\\pubnative\\lite\\sdk\\testing\\TestUtil.smali"
+      ]
+    },
+    {
+      "value": "96e380195959b8e7e05d6c6029154dc99e7fe954",
+      "files": [
+        "smali_classes5\\net\\pubnative\\lite\\sdk\\testing\\TestUtil.smali"
+      ]
+    },
+    {
+      "value": "C38FB23A402222A0C17D34A92F971D1F",
+      "files": [
+        "smali_classes5\\com\\ironsource\\mb.smali"
+      ]
+    },
+    {
+      "value": "b1f78eccdc6d7153084e9120766fe56b",
+      "files": [
+        "smali_classes4\\com\\moloco\\sdk\\acm\\db\\MetricsDb_Impl.smali"
+      ]
+    },
+    {
+      "value": "82d5e07fb1fc98c9c5bfa339c0f04693",
+      "files": [
+        "smali_classes4\\com\\moloco\\sdk\\acm\\db\\MetricsDb_Impl.smali"
+      ]
+    },
+    {
+      "value": "3e933449a0e5797fc1876ab3a07dc470",
+      "files": [
+        "smali_classes3\\de\\szalkowski\\activitylauncher\\data\\database\\AppDatabase_Impl.smali"
+      ]
+    },
+    {
+      "value": "40da1d991ebb82317c4c6ba349042ef7",
+      "files": [
+        "smali_classes3\\de\\szalkowski\\activitylauncher\\data\\database\\AppDatabase_Impl.smali"
+      ]
+    },
+    {
+      "value": "92d6421e44a44dff9f05b29be0ca5bef",
+      "files": [
+        "smali_classes2\\net\\pubnative\\lite\\sdk\\models\\OpenRTBAdRequestFactory.smali"
+      ]
+    },
+    {
+      "value": "cfc10ccaf0724c4cbc6122cf51421f03",
+      "files": [
+        "smali_classes2\\com\\chartboost\\sdk\\impl\\fc.smali"
+      ]
+    },
+    {
+      "value": "5181942b9ebc31ce68dacb56c16fd79f",
+      "files": [
+        "smali\\androidx\\work\\impl\\WorkDatabase_Impl.smali"
+      ]
+    },
+    {
+      "value": "ae2044fb577e65ee8bb576ca48a2f06e",
+      "files": [
+        "smali\\androidx\\work\\impl\\WorkDatabase_Impl.smali"
+      ]
+    }
+  ]
+}
